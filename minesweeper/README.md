@@ -1,11 +1,15 @@
 # MineSweeper in browser
 
-Features include:
-	Customizable size and number of mines
-	First step guaranteed never hit a mine
-	Game statistics (will reset when changing size/# of mines)
-	Mark mines and quick stepping
-	Displays hit/hidden mines and correct/incorrect mine-markings at end of game
+## Features include:
+Customizable size and number of mines
+
+First step guaranteed never hit a mine
+
+Game statistics (will reset when changing size/# of mines)
+
+Mark mines and quick stepping
+
+Displays hit/hidden mines and correct/incorrect mine-markings at end of game
 
 
 ## Running
