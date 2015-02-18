@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+  font-size: 16px;
+  float: right;
+}
+
+input {
+  font-size: 14px;
+  width: 80%;
+}
+
+#container {
+  margin: 10px auto;
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+}
+
+#statistics {
+  float: right;
+  width: 200px;
+  text-align: right;
+}
+
+#settings {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+#grid, #grid * {
+  box-sizing: content-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#grid {
+  width: 320px;
+  height: 320px;
+  padding: 0;
+  margin: 0;
+  outline: 2px solid #bbb;
+}
+
+#grid .tile {
+  width: 32px;
+  height: 32px;
+  outline: 1px solid #bbb;
+  background-color: #fff;
+  float: left;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#grid .tile.open {
+  background-color: #eee;
+}
+
+#grid .tile.open.no1 {
+  color: #00f;
+}
+
+#grid .tile.open.no2 {
+  color: #080;
+}
+
+#grid .tile.open.no3 {
+  color: #f00;
+}
+
+#grid .tile.open.no4 {
+  color: #008;
+}
+
+#grid .tile.open.no5 {
+  color: #a00;
+}
+
+#grid .tile.open.no6 {
+  color: #088;
+}
+
+#grid .tile.open.no7 {
+  color: #000;
+}
+
+#grid .tile.open.no8 {
+  color: #888;
+}
+
+#grid .tile.open.mine {
+  background-color: #ccc;
+  color: #f00;
+}
+
+#grid .tile.open.mine.exploded {
+  background-color: #000;
+}
+
+#grid .tile.miss {
+  background-color: #f00;
+}
+
+#grid .tile.hit {
+  background-color: #0b0;
+}
+
+#settingsMsg {
+  color: #e00;
+}
