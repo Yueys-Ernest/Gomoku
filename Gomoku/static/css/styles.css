@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#container {
+  width: 540px;
+  height: 100%;
+  margin: 10px auto;
+}
+
+#grid, #grid * {
+  box-sizing: content-box;
+}
+
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+  height: 540px;
+  padding: 0;
+  float: left;
+  outline: 1px solid #b4b4b4;
+}
+
+#grid .grid_square {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  float: left;
+  line-height: 10px;
+  text-align: center;
+  font-size: 64px;
+}
+
+.full_square {
+  background: url('../images/Grid_square.png');
+}
+
+.left_edge {
+  background: url('../images/Grid_square_left.png');
+}
+
+.right_edge {
+  background: url('../images/Grid_square_right.png');
+}
+
+.upper_edge {
+  background: url('../images/Grid_square_upper.png');
+}
+
+.lower_edge {
+  background: url('../images/Grid_square_lower.png');
+}
+
+.upper_left {
+  background: url('../images/Grid_square_upper_left.png');
+}
+
+.upper_right {
+  background: url('../images/Grid_square_upper_right.png');
+}
+
+.lower_left {
+  background: url('../images/Grid_square_lower_left.png');
+}
+
+.lower_right {
+  background: url('../images/Grid_square_lower_right.png');
+}
+
+.white {
+  background-color: #000000;
+}
+
+.black {
+  background-color: #FFFFFF;
+}
+
+.piece {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#grid .tile.winning {
+  color: #0f0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+button {
+  width: 70px;
+  height: 20px;
+}
+
+select {
+  width: 470px;
+  height: 20px;
+}
